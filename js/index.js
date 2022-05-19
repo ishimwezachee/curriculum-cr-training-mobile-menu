@@ -7,4 +7,16 @@ window.addEventListener('DOMContentLoaded', () => {
     console.log(close);
     const list = document.querySelectorAll('#mobile-nav ul li');
     // console.log(list);
- 
+  
+    btn.addEventListener('click', () => {
+        menu.style.display = 'flex';
+    })
+    close.addEventListener('click', () => {
+      menu.style.display = 'none';
+    })
+    list.forEach(li=> {
+      li.addEventListener('click', () => {
+        menu.style.display = 'none';
+      })
+    })
+  })
