@@ -45,6 +45,34 @@ header {
   outline: none;
 }
 
+#mobile-nav {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: wheat;
+  color: #fff;
+  z-index: 10;
+  padding-top: 0;
+}
+
+#mobile-nav span {
+  align-self: flex-end;
+  color:black;
+  font-size: 30px;
+  margin: 20px;
+  font-weight: 300;
+}
+
+#mobile-nav a {
+  color: red;
+  border-bottom: solid 1px red;
+  padding-bottom: 20px;
+}
+
 .menu-bars i {
   width: 18px;
   height: 12px;
