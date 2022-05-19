@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -61,7 +62,7 @@ header {
 
 #mobile-nav span {
   align-self: flex-end;
-  color:black;
+  color: black;
   font-size: 30px;
   margin: 20px;
   font-weight: 300;

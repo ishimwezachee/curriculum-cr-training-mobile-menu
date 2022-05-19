@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
         menu.style.display = 'flex';
     })
     close.addEventListener('click', () => {
-      menu.style.display = 'none';
+      menu.style.display = 'nonne';
     })
     list.forEach(li=> {
       li.addEventListener('click', () => {
