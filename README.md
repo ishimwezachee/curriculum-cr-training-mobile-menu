@@ -33,6 +33,10 @@ To get this project in your local machine, follow these steps:
 
 ## Authors
 
+👤 **Author1**
+
+- GitHub: [@zacheeIshimwe](https://github.com/ishimwezachee)
+- LinkedIn: [@zacheeIshimwe](https://www.linkedin.com/in/zachee-ishimwe-ab952a119/)
 
 ## 🤝 Contributing
 

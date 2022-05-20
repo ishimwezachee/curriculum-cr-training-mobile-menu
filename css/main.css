@@ -54,7 +54,7 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  background: wheat;
+  background: #3c3a39;
   color: #fff;
   z-index: 10;
   padding-top: 0;
@@ -62,16 +62,17 @@ header {
 
 #mobile-nav span {
   align-self: flex-end;
-  color: black;
+  color: rgb(224, 220, 213);
   font-size: 30px;
   margin: 20px;
   font-weight: 300;
 }
 
 #mobile-nav a {
-  color: red;
-  border-bottom: solid 1px red;
+  color: wheat;
+  border-bottom: solid 1px lightgray;
   padding-bottom: 20px;
+  font-weight: 600;
 }
 
 .menu-bars i {

@@ -6,13 +6,12 @@ window.addEventListener('DOMContentLoaded', () => {
     const close = document.querySelector('#mobile-nav span');
     console.log(close);
     const list = document.querySelectorAll('#mobile-nav ul li');
-    // console.log(list);
   
     btn.addEventListener('click', () => {
         menu.style.display = 'flex';
     })
     close.addEventListener('click', () => {
-      menu.style.display = 'nonne';
+      menu.style.display = 'none';
     })
     list.forEach(li=> {
       li.addEventListener('click', () => {
